@@ -1,0 +1,144 @@
+/* TÍTULO PRINCIPAL */
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  main h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1280px) {
+  main h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* PALESTRANTE */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .div-palestrante h2 {
+    font-size: 1rem;
+  }
+
+  .div-palestrante {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+  .div-palestrante h2 {
+    font-size: 1.1rem;
+  }
+
+  .div-palestrante {
+    width: 28%;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+  .div-palestrante h2 {
+    font-size: 1.2rem;
+  }
+
+  .div-palestrante {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1455px) {
+  .div-palestrante h2 {
+    font-size: 1.3rem;
+  }
+
+  .div-palestrante {
+    width: 22%;
+  }
+}
+
+/* INSCRIÇÃO E LOGOTIPO */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .div-inscricao h2 {
+    font-size: 1.6rem;
+  }
+
+  .div-inscricao p {
+    font-size: 1.2rem;
+  }
+
+  .div-inscricao {
+    width: 40%;
+  }
+
+  header .div-logotipo img {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+  .div-inscricao h2 {
+    font-size: 1.8rem;
+  }
+
+  .div-inscricao p {
+    font-size: 1.1rem;
+  }
+
+  .div-inscricao {
+    width: 38%;
+  }
+  
+  header .div-logotipo img {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+  .div-inscricao h2 {
+    font-size: 2rem;
+  }
+
+  .div-inscricao p {
+    font-size: 1.3rem;
+  }
+
+  .div-inscricao {
+    width: 36%;
+  }
+  
+  header .div-logotipo img {
+    width: 79%;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1455px) {
+  .div-inscricao h2 {
+    font-size: 2rem;
+  }
+
+  .div-inscricao p {
+    font-size: 1.3rem;
+  }
+
+  .div-inscricao {
+    width: 34%;
+  }
+  
+  header .div-logotipo img {
+    width: 72%;
+  }
+}
+
+@media screen and (min-width: 1456px) and (max-width: 1528px) {
+  .div-inscricao h2 {
+    font-size: 2.4rem;
+  }
+
+  .div-inscricao p {
+    font-size: 1.5rem;
+  }
+
+  .div-inscricao {
+    width: 32%;
+  }
+
+  header .div-logotipo img {
+    width: 65%;
+  }
+}

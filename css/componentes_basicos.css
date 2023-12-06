@@ -1,0 +1,68 @@
+/* CONFIGURAÇÕES GERAIS */
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  font-family: Inria Serif, serif;
+}
+
+/* CABEÇALHO */
+
+header {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  background-color: #1b1b1b;
+}
+
+header .div-logotipo {
+  width: 40%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .div-logotipo img {
+  width: 60%;
+  height: 7vh;
+  padding-right: 5rem;
+  cursor: pointer;
+}
+
+header .nav-botoes-de-navegacao {
+  width: 60%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .nav-botoes-de-navegacao a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* HOVER */
+
+header .nav-botoes-de-navegacao a:hover {
+  border-bottom: 3px solid #4989dd;
+}
+
+.div-inscricao button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
